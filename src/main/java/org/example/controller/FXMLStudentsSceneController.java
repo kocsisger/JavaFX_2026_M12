@@ -35,7 +35,7 @@ public class FXMLStudentsSceneController {
 
     @FXML
     void handleChangeButtonPressed(ActionEvent event) {
-        nameLabel.setText("John Smith");
+        model.getStudent().setName("John Smith");
     }
 
     @FXML
